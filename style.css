@@ -76,6 +76,19 @@
     border-radius: 16px;
 }
 
+.content {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.two img {
+    float: right;
+    padding-right: 100px;
+    padding-top: 70px;
+    height: 450px;
+}
+
 .two h2 {
     color: #fff;
     padding-top: 140px;
@@ -117,8 +130,9 @@
     text-align: center;
     height: 400px;
     margin-top: 100px;
-    background-color: linear-gradient(rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    ;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.20), rgba(255, 0, 0, 0.00));
+    box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.3);
+    margin-bottom: 100px;
 }
 
 .three p {
@@ -157,6 +171,23 @@
     font-weight: 500;
     padding-bottom: 20px;
 }
+
+.four .border {
+    border-radius: 463px;
+    border: 20px solid #fff;
+    outline: 10px solid red;
+    border-radius: 364.844px;
+    background: url('./images/Ellipse\ 1.png');
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    margin-left: -20px;
+}
+
+.four .border div{
+    
+}
+
 
 .four .row h4 {
     color: #070211;
@@ -264,19 +295,137 @@
     margin-top: 20px;
 }
 
-.six .diff{
+.six .diff {
     text-align: left;
     margin-bottom: 24px;
 }
 
-.six .shop{
+.six .shop {
     display: flex;
     align-items: center;
     width: 100%;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+}
+
+.six .shop img {
+    height: 420px;
+    border-radius: 16px;
+    margin: 7px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+.seven {
+    width: 85%;
+    padding-top: 80px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(255, 0, 0, 0.00));
+}
+
+.seven h3{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.seven input {
+    height: 75px;
+    width: 440px;
+    margin-right: 0;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    margin-right: -5;
+    border: 1px solid gray;
+
+}
+
+.seven input::placeholder {
+    padding-left: 15px;
+}
+
+.seven .btn {
+    margin-left: 0;
+    font-size: 20px;
+    height: 75px;
+    border-radius: 0 50px 50px 0px;
+    border: none;
+    outline: none;
+    padding: 19px 40px 22px 40px;
+    margin-top: 24px;
+}
+
+/*--------------footer---------*/
+
+.footer {
+    width: 100%;
+    background-color: #070211;
+    margin-top: 180px;
+}
+
+.footer .contact {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: #fff;
+    width: 85%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer .contact i {
+    color: #fff;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+.footer .icon {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.footer .copy {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding: 70px 0px;
+
+}
+
+/*--------animation----------*/
+
+button:hover {
+    background-color: none;
+    padding: 22px 35px;
+    transform: 3s all ease-out;
+}
+
+button {
+    cursor: pointer;
 }
 
 .six .shop img{
+    transition: .5s ease;
     height: 420px;
-    margin: 7px;
+    width: 400px;
+    filter: grayscale(0%);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.six .shop img:hover{
+    transform:scale(0.9) ;
+    filter: grayscale(100%);
+    
 }
