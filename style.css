@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Merriweather', Arial, Helvetica, sans-serif.
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
 }
 
 /*header--------*/
@@ -184,10 +184,6 @@
     margin-left: -20px;
 }
 
-.four .border div{
-    
-}
-
 
 .four .row h4 {
     color: #070211;
@@ -309,6 +305,7 @@
 
 .six .shop img {
     height: 420px;
+    width: 410px;
     border-radius: 16px;
     margin: 7px;
     cursor: pointer;
@@ -328,6 +325,11 @@
 .seven h3{
     font-size: 48px;
     font-weight: 900;
+}
+
+.seven a{
+    text-decoration: none;
+    color: white;
 }
 
 .seven input {
@@ -418,7 +420,7 @@ button {
 .six .shop img{
     transition: .5s ease;
     height: 420px;
-    width: 400px;
+    width: 410px;
     filter: grayscale(0%);
     cursor: pointer;
     overflow: hidden;
