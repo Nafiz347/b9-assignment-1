@@ -193,9 +193,14 @@
 
 .diff {
     color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 25px;
     font-weight: 400;
     padding-top: 20px;
+}
+
+.four .diff{
+    text-align: left;
 }
 
 #year {
@@ -211,7 +216,7 @@
 .five {
     width: 85%;
     margin: auto;
-    margin: 100px;
+    margin: 120px;
     position: relative;
 }
 
@@ -245,6 +250,7 @@
     background-position: right;
     width: 630px;
     height: 433px;
+    margin-top: 70px;
 }
 
 .five .img img {
@@ -339,6 +345,13 @@
     color: white;
 }
 
+.seven div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
 .seven input {
     height: 75px;
     width: 440px;
@@ -346,7 +359,6 @@
     border: none;
     border-radius: 50px 0px 0px 50px;
     margin-right: -5;
-    border: 1px solid gray;
 
 }
 
@@ -362,7 +374,7 @@
     border: none;
     outline: none;
     padding: 19px 40px 22px 40px;
-    margin-top: 24px;
+    border: 2px solid #f00;
 }
 
 /*--------------footer---------*/
