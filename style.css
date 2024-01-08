@@ -273,9 +273,10 @@
 }
 
 .six {
-    width: 85%;
+    max-width: 1300px;
     margin: auto;
     margin-top: 530px;
+    padding-left: 10px;
 }
 
 #caption {
@@ -299,15 +300,21 @@
 .six .shop {
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    gap: 15px;
     flex-wrap: wrap;
 }
 
+.six .shop .item{
+    
+    width:340px;
+    
+}
+
 .six .shop img {
-    height: 420px;
-    width: 410px;
+    height: 100%;
+    width: 100%;
     border-radius: 16px;
-    margin: 7px;
     cursor: pointer;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 }
@@ -419,8 +426,6 @@ button {
 
 .six .shop img{
     transition: .5s ease;
-    height: 420px;
-    width: 410px;
     filter: grayscale(0%);
     cursor: pointer;
     overflow: hidden;
