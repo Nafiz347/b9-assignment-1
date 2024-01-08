@@ -71,6 +71,7 @@
     width: 85%;
     height: 570px;
     margin: auto;
+    margin-top: 100px;
     text-align: left;
     border-radius: 16px;
 }
@@ -96,15 +97,84 @@
 .btn {
     color: #fff;
     background-color: #f00;
-    padding: 24px 32px;
+    padding: 16px 30px;
     border-radius: 10px;
+    border: none;
+    outline: none;
     font-size: 20px;
     font-weight: 700;
-    padding-top: 20px;
     margin-left: 126px;
 }
 
 .btn a{
     text-decoration: none;
     color: #fff;
+}
+
+.three{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    margin-top: 100px;
+    background-color:linear-gradient( rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+
+.three p{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    word-spacing: 5px;
+    padding-top: 100px;
+}
+
+.three span{
+    color: #f00;
+    padding-right: 5px;
+}
+
+.three .btn{
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.four{
+    width: 85%;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.four .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.four .row  .red{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.four .row h4{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.diff{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#year{
+    color:#f00 ;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.four img{
+    margin-top: 30px;
 }
