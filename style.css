@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Merriweather',Arial, Helvetica, sans-serif.
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif.
 }
 
 /*header--------*/
@@ -9,7 +9,7 @@
 .banner {
     width: 85%;
     height: 600px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./images/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Banner\ Image.png');
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -27,7 +27,7 @@
 
 }
 
-.banner h2{
+.banner h2 {
     font-size: 72px;
     font-weight: 900;
     color: #fff;
@@ -35,38 +35,38 @@
 
 /*------main----*/
 
-.one{
+.one {
     width: 85%;
     margin: auto;
     text-align: center;
     margin-top: 100px;
 }
 
-.one h2{
+.one h2 {
     font-size: 80px;
-    font-weight:900 ;
-    color:#f00;
+    font-weight: 900;
+    color: #f00;
     margin-bottom: 40px;
 }
 
-.one p{
+.one p {
     font-size: 24px;
     color: #f00;
     margin-bottom: 15px;
 }
 
-.one h4{
+.one h4 {
     font-size: 48px;
     font-weight: 700;
 }
 
-.one img{
+.one img {
     height: 450px;
     margin-top: 48px;
 }
 
-.two{
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./images/Vectorrr.png');
+.two {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Vectorrr.png');
     background-size: cover;
     width: 85%;
     height: 570px;
@@ -76,7 +76,7 @@
     border-radius: 16px;
 }
 
-.two h2{
+.two h2 {
     color: #fff;
     padding-top: 140px;
     padding-left: 126px;
@@ -85,7 +85,7 @@
     padding-bottom: 34px;
 }
 
-.two p{
+.two p {
     color: rgba(255, 255, 255, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -106,21 +106,22 @@
     margin-left: 126px;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: #fff;
 }
 
-.three{
+.three {
     width: 85%;
     margin: auto;
     text-align: center;
     height: 400px;
     margin-top: 100px;
-    background-color:linear-gradient( rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    background-color: linear-gradient(rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
 }
 
-.three p{
+.three p {
     font-size: 32px;
     font-weight: 600;
     color: #070211;
@@ -128,53 +129,154 @@
     padding-top: 100px;
 }
 
-.three span{
+.three span {
     color: #f00;
     padding-right: 5px;
 }
 
-.three .btn{
+.three .btn {
     margin-left: 0;
     margin-top: 40px;
 }
 
-.four{
+.four {
     width: 85%;
     margin-top: 100px;
     margin: auto;
 }
 
-.four .row{
+.four .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.four .row  .red{
+.four .row .red {
     color: #f00;
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 20px;
 }
 
-.four .row h4{
+.four .row h4 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
 }
 
-.diff{
+.diff {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
     padding-top: 20px;
 }
-#year{
-    color:#f00 ;
+
+#year {
+    color: #f00;
     font-size: 48px;
     font-weight: 900;
 }
 
-.four img{
+.four img {
     margin-top: 30px;
+}
+
+.five {
+    width: 85%;
+    margin: auto;
+    margin: 100px;
+    position: relative;
+}
+
+.five p:first-child {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.five h2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.five span {
+    color: #f00;
+}
+
+.diff {
+    text-align: center;
+}
+
+.five .img {
+    float: right;
+    background-image: url('./images/Rectangle\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 630px;
+    height: 433px;
+}
+
+.five .img img {
+    padding-right: 280px;
+    padding-top: 105px;
+    float: right;
+}
+
+.five .rec {
+    width: 100%;
+    height: 230px;
+    border-radius: 16px 0px 16px 16px;
+    background-image: url('./images/Rectangle\ 2.png');
+    position: relative;
+    top: 430px;
+}
+
+.five .rec img {
+    position: absolute;
+    width: 500px;
+    z-index: 2;
+    top: -230px;
+    left: 50px;
+    fill: #958864;
+    opacity: 0.83;
+}
+
+.six {
+    width: 85%;
+    margin: auto;
+    margin-top: 530px;
+}
+
+#caption {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.six h4 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.six .diff{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.six .shop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap:wrap;
+}
+
+.six .shop img{
+    height: 420px;
+    margin: 7px;
 }
